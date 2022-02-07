@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 174 62" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="linearGradient-1" x1="22.767%" x2="60.037%" y1="52.851%" y2="49.36%">
+      <stop offset="0%" stop-opacity="0"/>
+      <stop offset="100%"/>
+    </linearGradient>
+  </defs>
+  <g id="cable" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1">
+    <path id="cable-right" stroke="url(#linearGradient-1)" stroke-width="4" vector-effect="non-scaling-stroke" d="M172,31.3902605 C138,1.39026051 107,-4.88612447 82,9.11387553 C57,23.1138755 51,64.1138755 -51,65.1138755"/>
+  </g>
+</svg>

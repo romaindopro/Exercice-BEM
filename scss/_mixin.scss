@@ -1,0 +1,64 @@
+@mixin link {
+    a {
+        cursor: pointer;
+    text-decoration: none;
+    transition: text-shadow 0.2s ease-out;
+    color: var(--turquoise);
+    }
+    a:hover {
+        color: var(--taupe);
+        text-shadow: 0 0 0.5em var(--turquoise);
+    }
+    
+}
+@mixin hover {
+    a:hover {
+        color: var(--taupe);
+    text-decoration: none;
+    }
+}
+@mixin hoverf {
+    border-style: solid;
+    border-color: var(--turquoise);
+    box-shadow: 0 0 0.25em var(--turquoise),inset 0 0 0.25em var(--turquoise);
+    outline: none;
+}
+@mixin codew {
+    padding: 0 0.25em;
+          background: rgba(var(--taupe--rgb), 0.2);
+          border-radius: 0.125em;
+}
+
+@mixin codeb {
+    font-family: 'Fira Code', monospace;
+    background: rgba(0,0,0,0.1);
+    padding: 0 0.25em;
+    border-radius: 0.25em;
+    font-size: 0.875em;
+    text-decoration: none;
+}
+@mixin class {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    content: attr(class);
+    position: absolute;
+    left: 0.5em;
+    top: -0.875em;
+    font-size: 1rem;
+    letter-spacing: 0.1em;
+    padding: 0.25em 0.5em;
+    font-weight: normal;
+    color: var(--turquoise);
+    white-space: nowrap;
+    background: var(--black);
+    text-transform: none;
+    line-height: 1;
+}
+@mixin border {
+    border: 2px dashed var(--green);
+    padding: 0.5rem;
+    margin: 24px 24px;
+    cursor: help;
+    position: relative;
+    transition: box-shadow 0.2s ease-out;
+    border-radius: 0.1875em;
+}

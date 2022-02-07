@@ -1,0 +1,52 @@
+@import 'variable';
+@import 'mixin';
+header {
+    .titre {
+        h1 {
+            span {
+            font-weight: 200;
+            font-size: 3.9rem;
+            text-shadow: none;
+            color: var(--turquoise);
+            font-family: "Fira", sans-serif;
+
+                }
+        font-family: "Audiowide", sans-serif;
+        font-size: 8.375em;
+        text-shadow: 0 0 0.5rem #7ed4d4, 0 0 0.25rem #7ed4d4;
+        letter-spacing: 0.11em;
+        color: #fff;
+        position: relative;
+        font-weight: 400;
+        
+        }
+    background: url(../image/moon.svg) center center no-repeat;
+    background-size: auto 100%;
+    padding: 64px 32px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    }
+    padding: 16px 8px;
+    
+    
+}
+
+.intro {
+    p {
+        a{
+            display: inline-block;
+        }
+        max-width: 900px;
+        text-align: center;
+        font-size: 2.0rem;
+        font-weight: 300;
+        line-height: 1.5;
+        margin-bottom: 0.5em;
+        @include link;
+        display: block;
+    }
+    
+    align-items: center;
+    margin: 32px 0;
+}
